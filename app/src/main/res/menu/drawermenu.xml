@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Learn" android:title="@string/learn" android:icon="@drawable/ic_center_focus_strong_black_24dp"/>
+    <item android:id="@+id/Settings" android:title="@string/settings" android:icon="@drawable/ic_settings_black_24dp"/>
+    <item android:icon="@drawable/ic_exit_to_app_black_24dp" android:id="@+id/logout" android:title="Logout"/>
+    <item android:id="@+id/About" android:title="@string/about" android:icon="@drawable/ic_developer_board_black_24dp" />
+
+    </menu>

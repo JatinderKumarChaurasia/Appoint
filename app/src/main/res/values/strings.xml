@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Uni-Hospital</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="enter_valid_email">Enter Email_ID</string>
+    <string name="enter_phone_no">Enter Mobile_No</string>
+    <string name="error_invalid_email">Enter Valid Email_ID</string>
+    <string name="error_valid_phone_no">Enter Valid Phone No</string>
+    <string name="error_password_not_match">Password Does Not Match</string>
+    <string name="create_account_success">Account Created Successfully</string>
+    <string name="email_id_already_exists">Email_ID Already Exists</string>
+    <string name="user_name_already_exists">User-Name exists!Choose Another User-Name</string>
+    <string name="enter_valid_user_name_or_password">Enter valid UserName Or Password</string>
+    <string name="learn">Learn</string>
+    <string name="settings">Setting</string>
+    <string name="about">About Us</string>
+    <string name="welcome_to_unihospital">Welcome To Uni-Hospital</string>
+    <string name="home_doctor">Home Doctor</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

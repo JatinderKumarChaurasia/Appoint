@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16sp"
+              android:orientation="vertical"
+              tools:context="com.example.jatinderkumar.appoint.Emergency">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter City"
+        tools:ignore="HardcodedText"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:saveEnabled="true"
+        android:background="@color/colorPrimary"
+        android:popupBackground="@color/colorPrimary"
+        android:dropDownSelector="@color/colorAccent"
+        android:nextFocusDown="@style/Animation.AppCompat.DropDownUp"
+        android:layerType="software"
+        android:textDirection="firstStrong" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/listView"
+        android:background="@color/colorBackground"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
